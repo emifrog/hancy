@@ -491,17 +491,15 @@
 </div>
 </nav>
 
-<!-- /Side Menu -->
-
 <div class="pcoded-content">
 
 <div class="page-header card">
 <div class="row align-items-end">
 <div class="col-lg-8">
 <div class="page-header-title">
-<i class="feather icon-home bg-c-blue"></i>
+<i class="feather icon-calendar bg-c-blue"></i>
 <div class="d-inline">
-<h5>Dashboard</h5>
+<h5>Full Calendar</h5>
 <span>lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
 </div>
 </div>
@@ -512,130 +510,151 @@
 <li class="breadcrumb-item">
 <a href="index.html"><i class="feather icon-home"></i></a>
 </li>
-<li class="breadcrumb-item"><a href="#!">Dashboard</a> </li>
+<li class="breadcrumb-item"><a href="#!">Event Calendar</a>
+</li>
+<li class="breadcrumb-item"><a href="#!">Full Calendar</a>
+</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 
-<div class="pcoded-inner-content">
+<div class="pcoded-inner-content full-calender">
 <div class="main-body">
 <div class="page-wrapper">
 <div class="page-body">
+<div class="card">
+<div class="card-header">
+<h5>Full Calendar</h5>
+</div>
+<div class="card-block">
+<div class="row">
+<div class="col-xl-2 col-md-12">
+<div id="external-events">
+<h6 class="m-b-30 m-t-20">Events</h6>
+<div class="fc-event ui-draggable ui-draggable-handle">My Event 1</div>
+<div class="fc-event ui-draggable ui-draggable-handle">My Event 2</div>
+<div class="fc-event ui-draggable ui-draggable-handle">My Event 3</div>
+<div class="fc-event ui-draggable ui-draggable-handle">My Event 4</div>
+<div class="fc-event ui-draggable ui-draggable-handle">My Event 5</div>
+<div class="checkbox-fade fade-in-primary m-t-10">
+<label>
+<input type="checkbox" value="">
+<span class="cr">
+<i class="cr-icon icofont icofont-ui-check txt-primary"></i>
+</span>
+<span>Remove After Drop</span>
+</label>
+</div>
+</div>
+ </div>
+<div class="col-xl-10 col-md-12">
+<div id='calendar'></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="page-error">
+<div class="card text-center">
+<div class="card-block">
+<div class="m-t-10">
+<i class="icofont icofont-warning text-white bg-c-yellow"></i>
+<h4 class="f-w-600 m-t-25">Not supported</h4>
+<p class="text-muted m-b-0">Full Calendar not supported in this device</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
-    <!-- Main content -->
-    <div class="row justify-content-md-center">
-        <div class="col-11">
-          <div class="card card">
-            <div class="card-header d-flex p-0">
-              <h3 class="card-title p-3"><strong>Organigramme Sections</strong></h3>
-              <ul class="nav  navbar-light nav-pills ml-auto p-2">
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
-                    Caserne 
-                  </a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Section 1</a>
-                    <a class="dropdown-item" href="#">Section 2</a>
-                    <a class="dropdown-item" href="#">Section 3</a>
-                    <a class="dropdown-item" href="#">Section 4</a>
-                  </div>
+<div id="styleSelector">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<!--[if lt IE 10]>
+    <div class="ie-warning">
+        <h1>Warning!!</h1>
+        <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
+        <div class="iew-container">
+            <ul class="iew-download">
+                <li>
+                    <a href="http://www.google.com/chrome/">
+                        <img src="../files/assets/images/browser/chrome.png" alt="Chrome">
+                        <div>Chrome</div>
+                    </a>
                 </li>
-                </ul>
-            </div>
-            <!-- /.card-header -->
-            <div class="card-body table-responsive p-0">
-              <table class="table table-hover">
-                <thead>
-                  <tr>
-                    <th>Grade</th>
-                    <th>Matricule</th>
-                    <th>Nom</th>
-                    <th>Prénom</th>
-                    <th>Section</th>
-                    <th>Date d'entrée</th>
-                    <th>Téléphone</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><img src="images/png/grades/SGT.png" alt="" height=32 width=32></td>
-                    <td>8418 </td>
-                    <td><strong>BONA</strong></td>
-                    <td>Fabrice</td>
-                    <td><strong>section 1</strong></td>
-                    <td>01/01/2004</td>
-                    <td>06 23 12 27 22</td>
-                  </tr>
-                  <tr>
-                    <td><img src="images/png/grades/ADJ.png" alt="" height=32 width=32></td>
-                    <td>8418 </td>
-                    <td><strong>ROBART</strong></td>
-                    <td>Xavier</td>
-                    <td><strong>section 1</strong></td>
-                    <td>01/01/2004</td>
-                    <td>06 23 12 27 22</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <!-- /.card-body -->
-          </div>
-          <!-- /.card -->
+                <li>
+                    <a href="https://www.mozilla.org/en-US/firefox/new/">
+                        <img src="../files/assets/images/browser/firefox.png" alt="Firefox">
+                        <div>Firefox</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.opera.com">
+                        <img src="../files/assets/images/browser/opera.png" alt="Opera">
+                        <div>Opera</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.apple.com/safari/">
+                        <img src="../files/assets/images/browser/safari.png" alt="Safari">
+                        <div>Safari</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                        <img src="../files/assets/images/browser/ie.png" alt="">
+                        <div>IE (9 & above)</div>
+                    </a>
+                </li>
+            </ul>
         </div>
-  </div>
-</div>
-
-<!-- /.content-wrapper -->
-
-</div>
-</div>
-</div>
-<footer class="main-footer">
-  <div class="float-right d-none d-sm-block">
-    <b>Version</b> 3.0.1
-  </div>
-  <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong> All rights
-  reserved.
-</footer>
-</div>
+        <p>Sorry for the inconvenience!</p>
+    </div>
+    <![endif]-->
 
 
-<script data-cfasync="false" src="js/email-decode.min.js"></script><script type="d2d1d6e2f87cbebdf4013b26-text/javascript" src="js/jquery.min.js"></script>
-<script type="d2d1d6e2f87cbebdf4013b26-text/javascript" src="js/jquery-ui.min.js"></script>
-<script type="d2d1d6e2f87cbebdf4013b26-text/javascript" src="js/popper.min.js"></script>
-<script type="d2d1d6e2f87cbebdf4013b26-text/javascript" src="js/bootstrap.min.js"></script>
+<script type="5abfe82e91da83887fe68972-text/javascript" src="js/jquery.min.js"></script>
+<script type="5abfe82e91da83887fe68972-text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="5abfe82e91da83887fe68972-text/javascript" src="js/popper.min.js"></script>
+<script type="5abfe82e91da83887fe68972-text/javascript" src="js/bootstrap.min.js"></script>
 
-<script src="js/waves.min.js" type="d2d1d6e2f87cbebdf4013b26-text/javascript"></script>
+<script src="js/waves.min.js" type="5abfe82e91da83887fe68972-text/javascript"></script>
 
-<script type="d2d1d6e2f87cbebdf4013b26-text/javascript" src="js/jquery.slimscroll.js"></script>
+<script type="5abfe82e91da83887fe68972-text/javascript" src="js/jquery.slimscroll.js"></script>
 
-<script src="js/jquery.flot.js" type="d2d1d6e2f87cbebdf4013b26-text/javascript"></script>
-<script src="js/jquery.flot.categories.js" type="d2d1d6e2f87cbebdf4013b26-text/javascript"></script>
-<script src="js/curvedlines.js" type="d2d1d6e2f87cbebdf4013b26-text/javascript"></script>
-<script src="js/jquery.flot.tooltip.min.js" type="d2d1d6e2f87cbebdf4013b26-text/javascript"></script>
+<script type="5abfe82e91da83887fe68972-text/javascript" src="js/modernizr.js"></script>
+<script type="5abfe82e91da83887fe68972-text/javascript" src="js/css-scrollbars.js"></script>
 
-<script src="js/chartist.js" type="d2d1d6e2f87cbebdf4013b26-text/javascript"></script>
+<script type="5abfe82e91da83887fe68972-text/javascript" src="js/classie.js"></script>
 
-<script src="js/amcharts.js" type="d2d1d6e2f87cbebdf4013b26-text/javascript"></script>
-<script src="js/serial.js" type="d2d1d6e2f87cbebdf4013b26-text/javascript"></script>
-<script src="js/light.js" type="d2d1d6e2f87cbebdf4013b26-text/javascript"></script>
+<script type="5abfe82e91da83887fe68972-text/javascript" src="js/moment.min-2.js"></script>
+<script type="5abfe82e91da83887fe68972-text/javascript" src="js/fullcalendar.min.js"></script>
 
-<script src="js/pcoded.min.js" type="d2d1d6e2f87cbebdf4013b26-text/javascript"></script>
-<script src="js/vertical-layout.min.js" type="d2d1d6e2f87cbebdf4013b26-text/javascript"></script>
-<script type="d2d1d6e2f87cbebdf4013b26-text/javascript" src="js/custom-dashboard.min.js"></script>
-<script type="d2d1d6e2f87cbebdf4013b26-text/javascript" src="js/script.min.js"></script>
+<script type="5abfe82e91da83887fe68972-text/javascript" src="js/calendar.js"></script>
+<script src="js/pcoded.min.js" type="5abfe82e91da83887fe68972-text/javascript"></script>
+<script src="js/vertical-layout.min.js" type="5abfe82e91da83887fe68972-text/javascript"></script>
+<script src="js/jquery.mcustomscrollbar.concat.min.js" type="5abfe82e91da83887fe68972-text/javascript"></script>
+<script type="5abfe82e91da83887fe68972-text/javascript" src="js/script.js"></script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13" type="d2d1d6e2f87cbebdf4013b26-text/javascript"></script>
-<script type="d2d1d6e2f87cbebdf4013b26-text/javascript">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13" type="5abfe82e91da83887fe68972-text/javascript"></script>
+<script type="5abfe82e91da83887fe68972-text/javascript">
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-23581568-13');
 </script>
-<script src="js/rocket-loader.min.js" data-cf-settings="d2d1d6e2f87cbebdf4013b26-|49" defer=""></script></body>
+<script src="js/rocket-loader.min.js" data-cf-settings="5abfe82e91da83887fe68972-|49" defer=""></script></body>
 
-<!-- Mirrored from colorlib.com/polygon/admindek/default/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 12 Dec 2019 16:08:25 GMT -->
+<!-- Mirrored from colorlib.com/polygon/admindek/default/event-full-calender.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 12 Dec 2019 16:10:06 GMT -->
 </html>
