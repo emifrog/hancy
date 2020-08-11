@@ -611,28 +611,41 @@
     </div>
     </div>
     <div class="form-group row">
+      <div class="col-md-4 col-lg-2">
+      <label for="date" class="block">Date d'anniversaire *</label>
+      </div>
+      <div class="col-md-8 col-lg-10">
+      <input id="date" name="Date Of Birth" type="date" class="form-control required date-control">
+      </div>
+      </div>
+  <div class="form-group row">
         <div class="col-md-4 col-lg-2">
-        <label for="surname-2" class="block">Matricule *</label>
+        <label for="surname-2" class="block">Adresse</label>
         </div>
         <div class="col-md-8 col-lg-10">
         <input id="surname-2" name="surname" type="text" class="form-control required">
         </div>
+  </div>
+  <div class="form-group row">
+      <div class="col-md-4 col-lg-2">
+      <label for="surname-2" class="block">Code Postale</label>
+      </div>
+      <div class="col-md-8 col-lg-10">
+      <input id="surname-2" name="surname" type="text" class="form-control required">
+      </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-md-4 col-lg-2">
+    <label for="surname-2" class="block">Ville</label>
     </div>
-    <div class="form-group row">
-        <div class="col-md-4 col-lg-2">Select Section</div>
-        <div class="col-md-8 col-lg-10">
-        <select class="form-control required">
-        <option>Sélection</option>
-        <option>Section 1</option>
-        <option>Section 2</option>
-        <option>Section 3</option>
-        <option>Section 4</option>
-        </select>
-        </div>
-        </div>
+    <div class="col-md-8 col-lg-10">
+    <input id="surname-2" name="surname" type="text" class="form-control required">
+    </div>
+  </div>
+
     <div class="form-group row">
     <div class="col-md-4 col-lg-2">
-    <label for="phone-2" class="block">Téléphone #</label>
+    <label for="phone-2" class="block">Téléphone *</label>
     </div>
     <div class="col-md-8 col-lg-10">
     <input id="phone-2" name="phone" type="number" class="form-control required phone">
@@ -640,12 +653,13 @@
     </div>
     <div class="form-group row">
     <div class="col-md-4 col-lg-2">
-    <label for="date" class="block">Date d'anniversaire</label>
+    <label for="date" class="block">Personne a prévenir</label>
     </div>
     <div class="col-md-8 col-lg-10">
-    <input id="date" name="Date Of Birth" type="date" class="form-control required date-control">
+    <input id="name-2" name="name" type="text" class="form-control required">
     </div>
     </div>
+    <!--
     <div class="form-group row">
     <div class="col-md-4 col-lg-2">Select Country</div>
     <div class="col-md-8 col-lg-10">
@@ -659,6 +673,7 @@
     </select>
     </div>
     </div>
+    -->
     </fieldset>
     <h3> Informations Professionnel </h3>
     <fieldset>
@@ -671,16 +686,35 @@
         </div>
     </div>
     <div class="form-group row">
-      <div class="col-md-4 col-lg-2">Select Country</div>
+      <div class="col-md-4 col-lg-2">Grade</div>
       <div class="col-md-8 col-lg-10">
       <select class="form-control required">
-      <option>Select State</option>
-      <option>Gujarat</option>
-      <option>Kerala</option>
-      <option>Manipur</option>
-      <option>Tripura</option>
-      <option>Sikkim</option>
+      <option selected>...</option>
+      <option data-icon="fa-heart">Ketchup</option>
+      <option value="" data-icon="https://mdbootstrap.com/img/Photos/Avatars/avatar-1.jpg" class="rounded-circle">Section 2</option>
+      <option>Section 3</option>
+      <option>Section 4</option>
       </select>
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="col-md-4 col-lg-2">Section</div>
+      <div class="col-md-8 col-lg-10">
+      <select class="form-control required">
+      <option selected>...</option>
+      <option>Section 1</option>
+      <option>Section 2</option>
+      <option>Section 3</option>
+      <option>Section 4</option>
+      </select>
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="col-md-4 col-lg-2">
+      <label for="date" class="block">Date d'engagement</label>
+      </div>
+      <div class="col-md-8 col-lg-10">
+      <input id="date" name="Date Of Birth" type="date" class="form-control required date-control">
       </div>
       </div>
     <div class="form-group row">
@@ -767,7 +801,7 @@
     </div>
     </div>
   
-
+<!--
 <footer class="main-footer">
   <div class="float-right d-none d-sm-block">
     <b>Version</b> 3.0.1
@@ -775,6 +809,7 @@
   <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong> All rights
   reserved.
 </footer>
+-->
 </div>
 
 <script type="ce2668daaac54a74e9f6cdff-text/javascript" src="js/jquery.min.js"></script>
