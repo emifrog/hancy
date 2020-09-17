@@ -67,6 +67,33 @@ body{
   .form input:focus{
     width: 300px;
   }
+
+  .form .options-01{
+    margin-bottom: 50px;
+  }
+  
+  .form .options-01 input{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
+  
+  .form .options-01 .remember-me{
+    color: #000000;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    float: left;
+    cursor: pointer;
+  }
+  
+  .form .options-01 a{
+    color: #2E86DE;
+    font-size: 14px;
+    font-style: italic;
+    float: right;
+  }
+  
   
   .form button{
     outline: 0;

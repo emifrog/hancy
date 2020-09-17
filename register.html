@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Register Page</title>
+        <link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>        
+        <link rel="stylesheet" href="css/register.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    </head>
+    <body>
+
+        <!--form arena start-->
+        <div class="form">
+            <!--login form start-->
+            <form class="login-form" action="" method="POST">
+                <img src="images/png/hancylogo2.png" alt="logo.png">
+                <h2>Inscription</h2>
+                <div class="icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitch"></i></a>
+                </div>
+                <input type="text" name="user-name" value="" placeholder="Nom d'utilisateur" required>
+                <input type="text" name="email" value="" placeholder="Votre adresse email" required>
+                <input type="password" name="" value="" placeholder="Mot de passe" required>
+                <input type="password" name="" value="" placeholder="Confirmez le mot de passe" required>
+                <div class="checkbox checkbox-primary">
+                    <input id="checkbox1" class="styled" type="checkbox" checked>
+                    <label for="checkbox1">
+                        <span class="text-inverse">J'ai lu et j'accepte les <a href="#">Conditions Générales.</a></span>
+                    </label>
+                </div>
+
+                <div class="checkbox checkbox-primary">
+                    <input id="checkbox2" class="styled" type="checkbox" checked>
+                    <label for="checkbox2">
+                        <span class="text-inverse">Envoyez-moi la <a href="#">Newsletter</a> chaque semaine.</span>
+                    </label>
+                </div>
+
+                <button type="submit" name="button">S'inscrire maintenant</button>
+            </form>
+            <!--login form end-->
+        </div>
+        <!--form arena end-->
+
+    </body>
+</html>
